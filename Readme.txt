@@ -1,0 +1,4 @@
+-The main method, demonstrates the usage of the charge consumption calculation for three example images.
+-The calculateChargeConsumptionForImage method, which takes an image path as input, loads the image, iterates through the pixels, and calculates the total charge consumption for the image by calling the calculateChargeConsumptionPerPixel method for each pixel.
+-The calculateChargeConsumptionPerPixel method, takes the red, green, and blue values of a pixel and calculates the charge consumption for that pixel based on the provided consumption rates for the Nexus 6 OLED display.
+-The printResults method, which prints the image path, number of pixels, and the calculated charge consumption for a given image.
